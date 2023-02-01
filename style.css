@@ -19,19 +19,25 @@
 
 body{
     background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .topbar{
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
     background: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
     z-index: 2;
 }
 
 .develop-by{
-    float:left;
+    /* float:left; */
     padding: 5px 10px ;
     font-family: Outfit_light;
     font-size: 16px;
@@ -40,8 +46,8 @@ body{
 }
 
 .header-btn{
-    float: right;
-    padding: 10px 20px;
+    /* float: right; */
+    padding: 10px 10px;
     display:flex;
     align-items: center;
     
@@ -74,7 +80,7 @@ body{
 
 .main{
     padding-top: 5px;
-    width: 100%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -83,7 +89,7 @@ body{
 }
 
 .presentation{
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,7 +114,6 @@ body{
 }
 
 .presentation p{
-    width: 607px;
     font-family: Outfit_light;
     font-size: 16px;
     line-height: 25px;
@@ -129,6 +134,8 @@ body{
     border: 2px solid linear-gradient(to bottom,rgba(255, 184, 0, 0.57),#FFF);;
     border-radius: 100%;
     margin-top: 40px;
+    /* width: 50%;
+    height: 70vh; */
     width: 456px;
     height: 456px;
     display: flex;
@@ -145,7 +152,7 @@ body{
 }
 
 .service, .portfolio{
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 70px;
