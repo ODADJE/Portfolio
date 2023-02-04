@@ -97,6 +97,7 @@ body {
   font-family: Outfit;
   font-weight: 900;
   font-size: 128px;
+  margin-top: 0;
   margin-bottom: 0;
   color: rgba(255, 184, 0, 1);
 }
@@ -266,5 +267,17 @@ body {
   }
   .portfolio-image img {
     width: 100%;
+  }
+  .header-btn {
+    display: none;
+  }
+  .develop-by {
+    padding: 5px 10px;
+    font-family: Outfit_light;
+    font-size: 16px;
+    line-height: 25px;
+    opacity: 0.5;
+    width: 100%;
+    text-align: center;
   }
 }
