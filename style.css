@@ -37,7 +37,6 @@ body {
 }
 
 .develop-by {
-  /* float:left; */
   padding: 5px 10px;
   font-family: Outfit_light;
   font-size: 16px;
@@ -46,7 +45,6 @@ body {
 }
 
 .header-btn {
-  /* float: right; */
   padding: 10px 10px;
   display: flex;
   align-items: center;
@@ -125,14 +123,10 @@ body {
 }
 
 .elipse {
-  /* margin-top: 40px; */
-
   position: relative;
   border: 2px solid linear-gradient(to bottom, rgba(255, 184, 0, 0.57), #fff);
   border-radius: 100%;
   margin-top: 40px;
-  /* width: 50%;
-    height: 70vh; */
   width: 456px;
   height: 456px;
   display: flex;
@@ -144,7 +138,6 @@ body {
 .elipse img {
   width: 456px;
   height: 456px;
-  /* opacity: 0.80; */
 }
 
 .service,
@@ -177,6 +170,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
 }
 
 .competance div {
@@ -222,16 +216,6 @@ body {
 .portfolio-image img {
   width: 50%;
 }
-
-/* @media (prefers-color-scheme: dark) {
-    .topbar{
-        background-color: #121212;
-    }
-    body{
-        background-color: #121212;
-        color: #FFF;
-    }
-    } */
 
 @media screen and (max-width: 550px) {
   .topbar {
